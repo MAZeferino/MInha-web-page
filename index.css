@@ -6,13 +6,12 @@
 
 body{
     font-family: 'Source Sans Pro';
-    background-color: #141533;
     color: #fff;
 }
 
 html, body, #container{
     height: 100%;
-    background-color: #141533;
+    background-color: #333;
 }
 
 #container{
@@ -26,7 +25,7 @@ html, body, #container{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    border: 5px solid #3bbef3;
+    border: 5px solid #ED8975;
 }
 
 #container h1{
@@ -44,7 +43,7 @@ html, body, #container{
 
 #container p{
     font-size: 20px;
-    max-width: 750px;
+    max-width: 667px;
     text-align: center;
     opacity: 0.8;  
     line-height: 1.6;
@@ -66,6 +65,6 @@ html, body, #container{
 
 #container .links a:hover{
     transition: color 0.5s;
-    color: #3bbef3;
-    border-bottom: 2px solid #3bbef3;
+    color: #ED8975;
+    border-bottom: 2px solid #ED8975;
 }
